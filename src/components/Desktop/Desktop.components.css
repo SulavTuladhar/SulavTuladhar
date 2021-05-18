@@ -1,0 +1,84 @@
+.desktop{
+    position: relative;
+}
+.folder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    width: 10%;
+    cursor: pointer;
+}
+.folder-name{
+    font-weight: 900;
+    color: #fff;
+}
+.my-details{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    height: 80vh;
+    width: 30vw;
+    background-color: #beb6b4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*** Top bar  ***/
+.close-bar{
+    width: 98%;
+    height: 1.6rem;
+    background-color: #192d91;
+    padding: 0 0.4rem;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: move;
+}
+.header-text{
+    font-weight: 900;
+    margin-top: 1px;
+    color: #fff;
+}
+.close-btn{
+    background-color: #beb6b4;
+    height: 1.1rem;
+    width: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    border-top: 1px solid rgb(236, 235, 235);
+    border-left: 1px solid rgb(236, 235, 235);
+    cursor: pointer;
+}
+.close-icon{
+    font-size: small;
+}
+
+/******** Buttons *******/
+.buttons{
+    width: 90%;
+    height: 2.4rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn{
+    width: 20%;
+    height: 1.6rem;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-left: 1px solid rgb(236, 235, 235);
+    border-top: 1px solid rgb(236, 235, 235);
+}
+.ok{
+    margin-right: 1rem;
+}
